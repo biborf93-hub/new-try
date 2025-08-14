@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي البسيط</title>
+  <meta name="description" content="موقع شخصي بسيط للتعريف بنفسي وروابطي.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- شريط علوي -->
+  <header class="nav">
+    <div class="brand">habib</div>
+    <button class="menu-toggle" aria-label="قائمة">☰</button>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">من أنا</a></li>
+        <li><a href="#contact">تواصل</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- البطل / الرئيسية -->
+  <section id="home" class="hero">
+    <h1>أهلاً! أنا مطوّر ويب مبتدئ 👋</h1>
+    <p>أتعلّم HTML وCSS وJavaScript وأبني مشاريعي خطوة بخطوة.</p>
+    <a class="btn" href="#about">تعرف عليّ أكثر</a>
+  </section>
+
+  <!-- من أنا -->
+  <section id="about" class="section">
+    <h2>من أنا</h2>
+    <img class="avatar" src="https://i.postimg.cc/WbxSJwW2/IMG-0225.jpg" alt="صورتي">
+    <!-- غيّر الرابط أعلاه إلى صورتك -->
+    <p>
+      أنا habib، أحب البرمجة والتعلّم المستمر. هذا موقع بسيط للتعريف بنفسي وروابطي.
+    </p>
+
+    <h3>أشياء أحبها</h3>
+    <ul>
+      <li>البرمجة</li>
+      <li>التصميم</li>
+      <li>القهوة ☕</li>
+    </ul>
+  </section>
+
+  <!-- تواصل -->
+  <section id="contact" class="section">
+    <h2>تواصل معي</h2>
+    <p>تقدر تتواصل معي عبر الروابط التالية:</p>
+    <div class="links">
+      <a class="btn outline" href="https://wa.me/213549008602" target="_blank">واتساب</a>
+      <a class="btn outline" href="https://www.instagram.com/haaaabib_rf?igsh=MW5kMXEzdnNkd3diag%3D%3D&utm_source=qr" target="_blank">إنستغرام</a>
+      <a class="btn outline" href="mailto:biborf93@email.com">الإيميل</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> اسمي هنا — كل الحقوق محفوظة.</p>
+  </footer>
+
+</body>
+</html>
